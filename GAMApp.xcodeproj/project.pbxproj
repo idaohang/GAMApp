@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FCA606F17BC7B010084BF3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCA606E17BC7B010084BF3E /* UIKit.framework */; };
+		3FCA607117BC7B010084BF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCA607017BC7B010084BF3E /* Foundation.framework */; };
+		3FCA607317BC7B010084BF3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCA607217BC7B010084BF3E /* CoreGraphics.framework */; };
+		3FCA607917BC7B010084BF3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA607717BC7B010084BF3E /* InfoPlist.strings */; };
+		3FCA607B17BC7B010084BF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA607A17BC7B010084BF3E /* main.m */; };
+		3FCA607F17BC7B010084BF3E /* GAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA607E17BC7B010084BF3E /* GAMAppDelegate.m */; };
+		3FCA608117BC7B010084BF3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA608017BC7B010084BF3E /* Default.png */; };
+		3FCA608317BC7B010084BF3E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA608217BC7B010084BF3E /* Default@2x.png */; };
+		3FCA608517BC7B010084BF3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA608417BC7B010084BF3E /* Default-568h@2x.png */; };
+		3FCA608817BC7B010084BF3E /* GAMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA608717BC7B010084BF3E /* GAMFirstViewController.m */; };
+		3FCA608A17BC7B010084BF3E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA608917BC7B010084BF3E /* first.png */; };
+		3FCA608C17BC7B010084BF3E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA608B17BC7B010084BF3E /* first@2x.png */; };
+		3FCA608F17BC7B010084BF3E /* GAMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA608E17BC7B010084BF3E /* GAMSecondViewController.m */; };
+		3FCA609117BC7B010084BF3E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA609017BC7B010084BF3E /* second.png */; };
+		3FCA609317BC7B010084BF3E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA609217BC7B010084BF3E /* second@2x.png */; };
+		3FCA609617BC7B010084BF3E /* GAMFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA609417BC7B010084BF3E /* GAMFirstViewController.xib */; };
+		3FCA609917BC7B010084BF3E /* GAMSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA609717BC7B010084BF3E /* GAMSecondViewController.xib */; };
+		3FCA60A017BC7C6E0084BF3E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCA609F17BC7C6E0084BF3E /* CoreLocation.framework */; };
+		3FCA60A717BC82830084BF3E /* GAMThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA60A517BC82830084BF3E /* GAMThirdViewController.m */; };
+		3FCA60A817BC82830084BF3E /* GAMThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA60A617BC82830084BF3E /* GAMThirdViewController.xib */; };
+		3FCA60AA17BC83FB0084BF3E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCA60A917BC83FB0084BF3E /* MapKit.framework */; };
+		3FCA60AF17BC852A0084BF3E /* A-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA60AB17BC852A0084BF3E /* A-Icon.png */; };
+		3FCA60B017BC852A0084BF3E /* G-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA60AC17BC852A0084BF3E /* G-Icon.png */; };
+		3FCA60B117BC852A0084BF3E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA60AD17BC852A0084BF3E /* Icon.png */; };
+		3FCA60B217BC852A0084BF3E /* M-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA60AE17BC852A0084BF3E /* M-Icon.png */; };
+		3FCA60B417BC853C0084BF3E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA60B317BC853C0084BF3E /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FCA606B17BC7B010084BF3E /* GAMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA606E17BC7B010084BF3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FCA607017BC7B010084BF3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FCA607217BC7B010084BF3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FCA607617BC7B010084BF3E /* GAMApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GAMApp-Info.plist"; sourceTree = "<group>"; };
+		3FCA607817BC7B010084BF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FCA607A17BC7B010084BF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FCA607C17BC7B010084BF3E /* GAMApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GAMApp-Prefix.pch"; sourceTree = "<group>"; };
+		3FCA607D17BC7B010084BF3E /* GAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAMAppDelegate.h; sourceTree = "<group>"; };
+		3FCA607E17BC7B010084BF3E /* GAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAMAppDelegate.m; sourceTree = "<group>"; };
+		3FCA608017BC7B010084BF3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3FCA608217BC7B010084BF3E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3FCA608417BC7B010084BF3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3FCA608617BC7B010084BF3E /* GAMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAMFirstViewController.h; sourceTree = "<group>"; };
+		3FCA608717BC7B010084BF3E /* GAMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAMFirstViewController.m; sourceTree = "<group>"; };
+		3FCA608917BC7B010084BF3E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		3FCA608B17BC7B010084BF3E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		3FCA608D17BC7B010084BF3E /* GAMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAMSecondViewController.h; sourceTree = "<group>"; };
+		3FCA608E17BC7B010084BF3E /* GAMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAMSecondViewController.m; sourceTree = "<group>"; };
+		3FCA609017BC7B010084BF3E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3FCA609217BC7B010084BF3E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3FCA609517BC7B010084BF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GAMFirstViewController.xib; sourceTree = "<group>"; };
+		3FCA609817BC7B010084BF3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GAMSecondViewController.xib; sourceTree = "<group>"; };
+		3FCA609F17BC7C6E0084BF3E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3FCA60A417BC82830084BF3E /* GAMThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMThirdViewController.h; sourceTree = "<group>"; };
+		3FCA60A517BC82830084BF3E /* GAMThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMThirdViewController.m; sourceTree = "<group>"; };
+		3FCA60A617BC82830084BF3E /* GAMThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAMThirdViewController.xib; sourceTree = "<group>"; };
+		3FCA60A917BC83FB0084BF3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3FCA60AB17BC852A0084BF3E /* A-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A-Icon.png"; path = "../../../Downloads/GAC-Icons/A-Icon.png"; sourceTree = "<group>"; };
+		3FCA60AC17BC852A0084BF3E /* G-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "G-Icon.png"; path = "../../../Downloads/GAC-Icons/G-Icon.png"; sourceTree = "<group>"; };
+		3FCA60AD17BC852A0084BF3E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "../../../Downloads/GAC-Icons/Icon.png"; sourceTree = "<group>"; };
+		3FCA60AE17BC852A0084BF3E /* M-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "M-Icon.png"; path = "../../../Downloads/GAC-Icons/M-Icon.png"; sourceTree = "<group>"; };
+		3FCA60B317BC853C0084BF3E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCA606817BC7B010084BF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA60AA17BC83FB0084BF3E /* MapKit.framework in Frameworks */,
+				3FCA60A017BC7C6E0084BF3E /* CoreLocation.framework in Frameworks */,
+				3FCA606F17BC7B010084BF3E /* UIKit.framework in Frameworks */,
+				3FCA607117BC7B010084BF3E /* Foundation.framework in Frameworks */,
+				3FCA607317BC7B010084BF3E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCA606217BC7B010084BF3E = {
+			isa = PBXGroup;
+			children = (
+				3FCA60B317BC853C0084BF3E /* Icon.png */,
+				3FCA60A917BC83FB0084BF3E /* MapKit.framework */,
+				3FCA609F17BC7C6E0084BF3E /* CoreLocation.framework */,
+				3FCA607417BC7B010084BF3E /* GAMApp */,
+				3FCA606D17BC7B010084BF3E /* Frameworks */,
+				3FCA606C17BC7B010084BF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCA606C17BC7B010084BF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA606B17BC7B010084BF3E /* GAMApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCA606D17BC7B010084BF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA606E17BC7B010084BF3E /* UIKit.framework */,
+				3FCA607017BC7B010084BF3E /* Foundation.framework */,
+				3FCA607217BC7B010084BF3E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FCA607417BC7B010084BF3E /* GAMApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA60AB17BC852A0084BF3E /* A-Icon.png */,
+				3FCA60AC17BC852A0084BF3E /* G-Icon.png */,
+				3FCA60AD17BC852A0084BF3E /* Icon.png */,
+				3FCA60AE17BC852A0084BF3E /* M-Icon.png */,
+				3FCA607D17BC7B010084BF3E /* GAMAppDelegate.h */,
+				3FCA607E17BC7B010084BF3E /* GAMAppDelegate.m */,
+				3FCA608617BC7B010084BF3E /* GAMFirstViewController.h */,
+				3FCA608717BC7B010084BF3E /* GAMFirstViewController.m */,
+				3FCA608917BC7B010084BF3E /* first.png */,
+				3FCA608B17BC7B010084BF3E /* first@2x.png */,
+				3FCA608D17BC7B010084BF3E /* GAMSecondViewController.h */,
+				3FCA608E17BC7B010084BF3E /* GAMSecondViewController.m */,
+				3FCA609017BC7B010084BF3E /* second.png */,
+				3FCA609217BC7B010084BF3E /* second@2x.png */,
+				3FCA609417BC7B010084BF3E /* GAMFirstViewController.xib */,
+				3FCA609717BC7B010084BF3E /* GAMSecondViewController.xib */,
+				3FCA607517BC7B010084BF3E /* Supporting Files */,
+				3FCA60A417BC82830084BF3E /* GAMThirdViewController.h */,
+				3FCA60A517BC82830084BF3E /* GAMThirdViewController.m */,
+				3FCA60A617BC82830084BF3E /* GAMThirdViewController.xib */,
+			);
+			path = GAMApp;
+			sourceTree = "<group>";
+		};
+		3FCA607517BC7B010084BF3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA607617BC7B010084BF3E /* GAMApp-Info.plist */,
+				3FCA607717BC7B010084BF3E /* InfoPlist.strings */,
+				3FCA607A17BC7B010084BF3E /* main.m */,
+				3FCA607C17BC7B010084BF3E /* GAMApp-Prefix.pch */,
+				3FCA608017BC7B010084BF3E /* Default.png */,
+				3FCA608217BC7B010084BF3E /* Default@2x.png */,
+				3FCA608417BC7B010084BF3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCA606A17BC7B010084BF3E /* GAMApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA609C17BC7B010084BF3E /* Build configuration list for PBXNativeTarget "GAMApp" */;
+			buildPhases = (
+				3FCA606717BC7B010084BF3E /* Sources */,
+				3FCA606817BC7B010084BF3E /* Frameworks */,
+				3FCA606917BC7B010084BF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAMApp;
+			productName = GAMApp;
+			productReference = 3FCA606B17BC7B010084BF3E /* GAMApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCA606317BC7B010084BF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GAM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = student;
+			};
+			buildConfigurationList = 3FCA606617BC7B010084BF3E /* Build configuration list for PBXProject "GAMApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FCA606217BC7B010084BF3E;
+			productRefGroup = 3FCA606C17BC7B010084BF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCA606A17BC7B010084BF3E /* GAMApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCA606917BC7B010084BF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA607917BC7B010084BF3E /* InfoPlist.strings in Resources */,
+				3FCA608117BC7B010084BF3E /* Default.png in Resources */,
+				3FCA608317BC7B010084BF3E /* Default@2x.png in Resources */,
+				3FCA608517BC7B010084BF3E /* Default-568h@2x.png in Resources */,
+				3FCA608A17BC7B010084BF3E /* first.png in Resources */,
+				3FCA608C17BC7B010084BF3E /* first@2x.png in Resources */,
+				3FCA609117BC7B010084BF3E /* second.png in Resources */,
+				3FCA609317BC7B010084BF3E /* second@2x.png in Resources */,
+				3FCA609617BC7B010084BF3E /* GAMFirstViewController.xib in Resources */,
+				3FCA609917BC7B010084BF3E /* GAMSecondViewController.xib in Resources */,
+				3FCA60A817BC82830084BF3E /* GAMThirdViewController.xib in Resources */,
+				3FCA60AF17BC852A0084BF3E /* A-Icon.png in Resources */,
+				3FCA60B017BC852A0084BF3E /* G-Icon.png in Resources */,
+				3FCA60B117BC852A0084BF3E /* Icon.png in Resources */,
+				3FCA60B217BC852A0084BF3E /* M-Icon.png in Resources */,
+				3FCA60B417BC853C0084BF3E /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCA606717BC7B010084BF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA607B17BC7B010084BF3E /* main.m in Sources */,
+				3FCA607F17BC7B010084BF3E /* GAMAppDelegate.m in Sources */,
+				3FCA608817BC7B010084BF3E /* GAMFirstViewController.m in Sources */,
+				3FCA608F17BC7B010084BF3E /* GAMSecondViewController.m in Sources */,
+				3FCA60A717BC82830084BF3E /* GAMThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FCA607717BC7B010084BF3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCA607817BC7B010084BF3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FCA609417BC7B010084BF3E /* GAMFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCA609517BC7B010084BF3E /* en */,
+			);
+			name = GAMFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		3FCA609717BC7B010084BF3E /* GAMSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCA609817BC7B010084BF3E /* en */,
+			);
+			name = GAMSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FCA609A17BC7B010084BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FCA609B17BC7B010084BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCA609D17BC7B010084BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAMApp/GAMApp-Prefix.pch";
+				INFOPLIST_FILE = "GAMApp/GAMApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FCA609E17BC7B010084BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAMApp/GAMApp-Prefix.pch";
+				INFOPLIST_FILE = "GAMApp/GAMApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCA606617BC7B010084BF3E /* Build configuration list for PBXProject "GAMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA609A17BC7B010084BF3E /* Debug */,
+				3FCA609B17BC7B010084BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA609C17BC7B010084BF3E /* Build configuration list for PBXNativeTarget "GAMApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA609D17BC7B010084BF3E /* Debug */,
+				3FCA609E17BC7B010084BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCA606317BC7B010084BF3E /* Project object */;
+}
